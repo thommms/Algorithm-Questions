@@ -27,3 +27,5 @@ def duplicateZeros(self, arr: List[int]) -> None:
             arr.insert(i+1,arr[i])
             i+=1
         i+=1
+nums= [1,0,2,3,0,4,5,0]
+duplicateZero(nums)
